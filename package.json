@@ -1,0 +1,18 @@
+{
+  "name": "slidev-sample",
+  "private": true,
+  "version": "0.1.0",
+  "scripts": {
+    "dev": "slidev slide02.md --open false",
+    "dev:02": "slidev slide02.md --open false",
+    "build": "slidev build slide02.md",
+    "build:02": "slidev build slide02.md",
+    "export": "slidev export slide02.md",
+    "export:02": "slidev export slide02.md"
+  },
+  "devDependencies": {
+    "@slidev/cli": "^52.14.1",
+    "@slidev/theme-default": "^0.25.0",
+    "playwright-chromium": "^1.58.2"
+  }
+}

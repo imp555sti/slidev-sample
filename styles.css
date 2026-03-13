@@ -1,0 +1,87 @@
+:root {
+  --slidev-theme-font: "Yu Gothic UI", "Meiryo UI", sans-serif;
+  --slidev-code-font: "Consolas", "Cascadia Mono", monospace;
+  --template-accent: #0f5c4d;
+  --template-accent-soft: #dceee8;
+  --template-border: #b7d2c8;
+  --template-footer: #24433b;
+}
+
+.slidev-layout {
+  font-family: var(--slidev-theme-font);
+  line-height: 1.5;
+}
+
+table {
+  font-size: 0.9em;
+}
+
+.template-spec-card {
+  margin-top: 1.5rem;
+  border: 1px solid var(--template-border);
+  border-radius: 14px;
+  background: linear-gradient(180deg, #f7fbf9 0%, var(--template-accent-soft) 100%);
+  padding: 1rem 1.2rem;
+}
+
+.template-spec-card > div + div {
+  margin-top: 0.45rem;
+}
+
+.template-shell {
+  position: relative;
+  min-height: 100%;
+  padding-top: 2.4rem;
+  padding-bottom: 3.4rem;
+  padding-left: 1.2rem;
+  padding-right: 1.2rem;
+}
+
+.title-band {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.45rem 1rem 0.55rem;
+  background: linear-gradient(90deg, var(--template-accent) 0%, #2b7a68 100%);
+  color: #ffffff;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  border-radius: 12px 12px 0 0;
+}
+
+.footer-band {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: grid;
+  grid-template-columns: 1fr auto auto;
+  gap: 1rem;
+  align-items: center;
+  padding: 0.55rem 1rem;
+  background: var(--template-footer);
+  color: #f6fbf9;
+  font-size: 0.74rem;
+  border-radius: 0 0 12px 12px;
+}
+
+.page-no {
+  display: inline-block;
+  min-width: 3.6rem;
+  text-align: center;
+  letter-spacing: 0.08em;
+  font-weight: 700;
+}
+
+.executive-shell ul {
+  margin-top: 1rem;
+}
+
+.rules-shell ol {
+  margin-top: 1rem;
+}
