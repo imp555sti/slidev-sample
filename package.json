@@ -5,10 +5,13 @@
   "scripts": {
     "dev": "slidev slide02.md --open false",
     "dev:02": "slidev slide02.md --open false",
+    "dev:03": "slidev slide03.md --open false",
     "build": "slidev build slide02.md",
     "build:02": "slidev build slide02.md",
+    "build:03": "slidev build slide03.md",
     "export": "slidev export slide02.md",
-    "export:02": "slidev export slide02.md"
+    "export:02": "slidev export slide02.md",
+    "export:03": "slidev export slide03.md",
   },
   "devDependencies": {
     "@slidev/cli": "^52.14.1",
